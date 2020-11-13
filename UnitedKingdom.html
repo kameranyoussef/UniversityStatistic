@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="University Statistic">
+    <title>UniversityStatistic - United Kingdom</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	crossorigin="anonymous"></script>
+
+	<script src="script/UnitedKingdom/UnitedKingdomGH.js"></script> 
+	<script src="script/UnitedKingdom/UnitedKingdomWBAP.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBEP.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBICT.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBNMS.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBEMC.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBAH.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBUSF.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBBAL.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBAFFV.js"></script>
+	<script src="script/UnitedKingdom/UnitedKingdomWBSSJU.js"></script>
+
+	<script src="script/Monaco/Show-Hide.js"></script>
+
+</head>
+<body>
+<header>
+		<div class="container"> 
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="Monaco.html">Monaco</a></li>
+					<li><a href="Maldives.html">Maldives</a></li>
+					<li><a href="Mauritius.html">Mauritius</a></li>
+					<li><a class="highlight" href="UnitedKingdom.html">United Kingdom</a></li>
+				</ul>
+			</nav>
+		</div>
+</header>	
+
+<div class="showcases">
+	<div class="imgStatistics">
+		<h1>University Statistics</h1> 
+	</div>
+</div>
+
+<div class="flex-container">
+	<nav class="nav">
+		<ul>
+			<li><button class="SideNavbutton" onclick="listUni()">List  of Universities</button></li>
+			<li><button class="SideNavbutton" onclick="AllPros()">Chart of All Programmes</button></li>
+			<li><button class="SideNavbutton" onclick="ICTPro()">Chart of Information and Communication Technologies</button></li>
+			<li><button class="SideNavbutton" onclick="EPPros()">Chart of Education Programmes</button></li>
+			<li><button class="SideNavbutton" onclick="NMSPro()">Chart of Natural Sciences, Mathematics and Statistics</button></li>
+			<li><button class="SideNavbutton" onclick="EMCPro()">Chart of Engineering, Manufacturing and Construction </button></li>
+			<li><button class="SideNavbutton" onclick="AHPro()">Chart of Arts and Humanities</button></li>
+			<li><button class="SideNavbutton" onclick="USFPro()">Chart of Programmes In Unspecified Fields </button></li>
+			<li><button class="SideNavbutton" onclick="BALPro()">Chart of Business, Administration and Law </button></li>
+			<li><button class="SideNavbutton" onclick="AFFVPro()">Chart of Agriculture, Forestry, Fisheries and Veterinary</button></li>
+			<li><button class="SideNavbutton" onclick="SSJUPro()">Chart of Social Sciences, Journalism and Information </button></li>
+
+		</ul>	
+	</nav>
+
+	<article class="article" >
+
+		<div id ="wrapperGH"></div>
+		<div hidden id ="wrapperWBAP"></div>
+		<div hidden id ="wrapperWBICT"></div>
+		<div hidden id ="wrapperWBEP"></div>
+		<div hidden id ="wrapperWBNMS"></div>
+		<div hidden id ="wrapperWBEMC"></div>
+		<div hidden id ="wrapperWBAH"></div>
+		<div hidden id ="wrapperWBUSF"></div>
+		<div hidden id ="wrapperWBBAL"></div>
+		<div hidden id ="wrapperWBAFFV"></div>
+		<div hidden id ="wrapperWBSSJU"></div>
+		
+	</article>
+</div>
+
+<footer>
+		<P>University Statistic &copy;</P>
+</footer>
+</body>
+</html>
